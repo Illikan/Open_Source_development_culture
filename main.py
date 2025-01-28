@@ -4,4 +4,8 @@ app = FastAPI()
 
 @app.get("/")
 def read_root():
-    retugit rn {"message": "Hello, World!"}
+    return {"message": "Hello, World!"}
+
+@app.get("/items")
+def get_items():
+    return{"items": ["item1", "item2", "item3"]}main.py
