@@ -4,4 +4,4 @@ app = FastAPI()
 
 @app.get("/")
 def read_root():
-    retugit rn {"message": "Hello, World!"}
+    return {"message": "Hello, World!"}
