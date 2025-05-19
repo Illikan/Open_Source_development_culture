@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+requests 
+questionary 
+sphinx
+sphinx-rtd-theme
+sphinx-autoapi
+httpx
